@@ -1,0 +1,50 @@
+@import url("./__image/place__image.css");
+@import url("./__paragraph/place__paragraph.css");
+@import url("./__paregraphs/place__paragraphs.css");
+@import url("./__title/place__title.css");
+@import url("./__website/place__website.css");
+@import url("./_theme/place_theme_altay.css");
+@import url("./_theme/place_theme_baikal.css");
+@import url("./_theme/place_theme_karelia.css");
+@import url("./_theme/place_theme_kolsky.css");
+@import url("./_theme/place_theme_kosa.css");
+.place {
+  display: grid;
+  grid-template-columns: 46.8% 49.2%;
+  grid-template-rows: max-content minmax(min-content, max-content);
+  max-height: 660px;
+  max-width: 984px;
+  grid-gap: 42px 40px;
+  margin-bottom: 86px;
+}
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    grid-gap: 42px 37px;
+    margin-bottom: 80px;
+    max-height: 644px;
+  }
+  .place:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    max-height: 580px;
+    grid-template-columns: 46.8% 49.2%;
+    grid-template-rows: max-content 76.3%;
+    grid-gap: 45px 30px;
+    margin-bottom: 59px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    max-height: 963px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-bottom: 48px;
+  }
+}

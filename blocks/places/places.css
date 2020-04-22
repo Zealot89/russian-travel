@@ -1,0 +1,30 @@
+.places {
+  font-family: Inter;
+  max-width: 984px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 98px;
+}
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+    margin-left: 4.8%;
+    margin-bottom: 92px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 928px;
+    margin-left: 3.2%;
+    margin-bottom: 64px;
+    margin-top: 101px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+    max-height: 4775px;
+    margin: 66px 0 62px;
+  }
+}

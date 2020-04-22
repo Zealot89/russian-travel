@@ -1,0 +1,10 @@
+@media screen and (max-width: 1024px) {
+  .place_theme_altay {
+    margin-top: -22px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place_theme_altay {
+    margin-top: -27px;
+  }
+}
