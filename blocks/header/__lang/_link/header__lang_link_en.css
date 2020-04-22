@@ -2,3 +2,6 @@
   color: #ffffff;
   text-decoration: none;
 }
+.header__lang_link_en:hover {
+  opacity: 0.8;
+}
