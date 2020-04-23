@@ -5,7 +5,6 @@
   font-size: 96px;
   line-height: 100px;
   max-width: 720px;
-  min-height: 200px;
   text-align: center;
   margin-bottom: 0;
   word-break: break-all;
@@ -26,7 +25,7 @@
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
-    margin-top: 52px;
+    margin-top: 43px;
     min-height: 86px;
   }
 }

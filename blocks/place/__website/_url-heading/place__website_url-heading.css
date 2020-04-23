@@ -2,7 +2,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 12px;
   letter-spacing: 0.2em;
-  margin-bottom: 10px;
+  /*Без letter-spacing не совсем попадает в макет */
+  margin-bottom: 5px;
+  text-transform: uppercase;
 }

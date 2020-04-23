@@ -1,9 +1,0 @@
-.header__lang_link_ru {
-  margin-right: 18px;
-  color: #ffffff;
-  text-decoration: underline;
-  text-underline-position: under;
-}
-.header__lang_link_ru:hover {
-  opacity: 0.8;
-}

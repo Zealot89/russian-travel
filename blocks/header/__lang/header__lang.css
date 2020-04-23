@@ -1,10 +1,7 @@
-@import url("./_link/header__lang_link_ru.css");
-@import url("./_link/header__lang_link_en.css");
 .header__lang {
   display: flex;
   padding-top: 21px;
   color: white;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
