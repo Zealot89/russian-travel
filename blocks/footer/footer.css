@@ -24,11 +24,11 @@
     margin-right: 24px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 714px) {
   .footer {
     flex-direction: column;
     max-width: 186px;
-    max-height: 310px;
+    min-height: 310px;
     margin-left: 3%;
   }
 }
